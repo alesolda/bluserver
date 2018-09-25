@@ -54,8 +54,9 @@ def run_server(address, port, num_processes):
     logger.info('Start server')
 
     try:
-        # trap CTR-C signal
+        # trap SIGINT/CTR-C or SIGTERM signals
         signal.signal(signal.SIGINT, signal_handler)
+        signal.signal(signal.SIGTERM, signal_handler)
 
         # prepare socket to accept incoming connections
         sock = socket.socket()

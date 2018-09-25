@@ -64,7 +64,7 @@ python setup.py develop
 bluserver --verbose
 ```
 
-To kill the server, simply press `CTR-C`, or from a different terminal execute `killall bluserver`
+To kill the server, simply press `CTR-C`, or from a different terminal execute `killall bluserver -s SIGINT`
 
 ## Client
 

@@ -9,7 +9,7 @@ import yaml
 from bluserver.definitions import LOGGING_CONFIG
 
 __author__ = """Alejandro Solda"""
-__email__ = 'ale@solda.co'
+__email__ = 'alejandrosolda at g m a i l dot c o m'
 __version__ = '0.0.1'
 
 

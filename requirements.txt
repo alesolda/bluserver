@@ -1,3 +1,4 @@
 ply==3.11
+pip
 PyYAML==3.13
 structlog==18.2.0

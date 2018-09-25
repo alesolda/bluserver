@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-'''The setup script.'''
+"""The setup script."""
 import sys
 import uuid
 from setuptools import setup, find_packages
@@ -36,7 +36,7 @@ setup(
     name=package_name,
     version='0.1.0',
     url='https://github.com/alesolda/bluserver',
-    description='Blu Server',
+    description='bluserver',
     # long_description=readme,
     author='Alejandro Solda',
     author_email='alejandrosolda at g m a i l dot c o m',

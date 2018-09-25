@@ -23,7 +23,7 @@ def main():
 
     logger.bind(pname="server", pid=os.getpid())
 
-    logger.info("Blu Server invoked", cli_args=cli_args)
+    logger.info("bluserver invoked", cli_args=cli_args)
 
     output = {
         "status": None,
