@@ -3,6 +3,12 @@
 
 # bluserver
 
+Receives operational data through sockets, processes it based on predefined logic,
+returns computed results to the sender; manages multiple client connections with
+reliable communication and data integrity.
+
+---
+
 This excercise implements a socket server (python) built with the following features:
 
 * python 3.6.6
